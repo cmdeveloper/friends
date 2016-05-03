@@ -1,0 +1,56 @@
+<ion-view title="Editar Anuncio">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <img src="img/skx6aH2kTPi0sLSUKfVt_izadora.jpeg" width="100%" height="auto" style="width: 100%; height: auto;">
+        <form class="list">
+            <ion-toggle toggle-class="toggle-assertive" name="perfil_visivel">Perfil visivel</ion-toggle>
+            <h5>NOME:</h5>
+            <label class="item item-input" name="nome">
+                <input type="text" placeholder="">
+            </label>
+            <h5>CIDADE:</h5>
+            <label class="item item-input" name="cidade">
+                <input type="text" placeholder="">
+            </label>
+            <h5>IDADE:</h5>
+            <label class="item item-input" name="perfil_idade">
+                <input type="number" placeholder="">
+            </label>
+            <h5>SEXO:</h5>
+            <ion-radio name="rb_sexo">Feminino</ion-radio>
+            <ion-radio name="rb_sexo">Masculino</ion-radio>
+            <h5>ALTURA:</h5>
+            <label class="item item-input" name="altura">
+                <input type="number" placeholder="">
+            </label>
+            <h5>COR DO CABELO</h5>
+            <label class="item item-select" name="cor_cabelo">
+                <span class="input-label">Selecione uma cor</span>
+                <select></select>
+            </label>
+            <h5>COR DOS OLHOS</h5>
+            <label class="item item-select" name="cor_olho">
+                <span class="input-label">Selecione uma cor</span>
+                <select></select>
+            </label>
+            <h5>DESCRICAO:</h5>
+            <label class="item item-input" name="descricao">
+                <span class="input-label"></span><textarea placeholder=""> </textarea>
+            </label>
+            <h5>O QUE FAZ:</h5>
+            <ion-checkbox name="cb_faz">Sexo Vaginal</ion-checkbox>
+            <ion-checkbox name="cb_faz">Sexo Anal</ion-checkbox>
+            <ion-checkbox name="cb_faz">Sexo Oral</ion-checkbox>
+            <h5>Quanto cobra:</h5>
+            <label class="item item-input" name="preco_hora">
+                <span class="input-label">Por hora:</span>
+                <input type="number" placeholder="ex: 150,00">
+            </label>
+            <label class="item item-input" name="preco_pernoite">
+                <span class="input-label">Por Pernoite:</span>
+                <input type="number" placeholder="ex: 500,00">
+            </label>
+            <ion-radio name="preco_combinar">Ou à Combinar</ion-radio>
+            <button class="button button-assertive button-outline button-block ">SALVAR E PUBLICAR</button>
+        </form>
+    </ion-content>
+</ion-view>

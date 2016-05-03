@@ -1,0 +1,23 @@
+<ion-view title="Solicitar Servicos">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <ion-radio name="rb_local">Marcar encontro</ion-radio>
+            <ion-radio name="rb_loca">Ir ao local (privé)</ion-radio>
+        </form>
+        <div class="list card">
+            <div class="item item-divider">Escolha o horario.</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-checkbox name="cb_agenda">Pernoite</ion-checkbox>
+                    <ion-checkbox name="cb_agenda">às 13:00h</ion-checkbox>
+                    <ion-checkbox name="cb_agenda">às 14:00h</ion-checkbox>
+                    <ion-checkbox name="cb_agenda">às 15:00h</ion-checkbox>
+                    <ion-checkbox name="cb_agenda">às 16:00h</ion-checkbox>
+                    <ion-checkbox name="cb_agenda">às 20:00h</ion-checkbox>
+                    <ion-checkbox name="cb_agenda">às 21:00h</ion-checkbox>
+                </ion-list>
+            </div>
+        </div>
+        <a href="#/confirme" class="button button-assertive button-outline button-block ">CONFIRMAR</a>
+    </ion-content>
+</ion-view>

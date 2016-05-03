@@ -1,0 +1,30 @@
+<ion-view title="Filtrar Busca">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <h5>Sexo</h5>
+            <ion-radio name="rdb_sexo">Feminino</ion-radio>
+            <ion-radio name="rdb_sexo">Masculino</ion-radio>
+            <h5>Preco (R$)</h5>
+            <ion-item class="range range-assertive">9999
+                <input type="range" value="100" min="0" max="9999" name="preco_filtro">
+            </ion-item>
+            <label class="item item-select" name="uf_filter">
+                <span class="input-label">Estado (UF)</span>
+                <select></select>
+            </label>
+            <label class="item item-select" name="cidade_filter">
+                <span class="input-label">Cidade</span>
+                <select></select>
+            </label>
+            <label class="item item-select" name="cor_olho_filter">
+                <span class="input-label">Cor dos olhos</span>
+                <select></select>
+            </label>
+            <label class="item item-input" name="idade_filter">
+                <span class="input-label">Idade</span>
+                <input type="number" placeholder="">
+            </label>
+            <button class="button button-assertive button-outline button-block ">Buscar</button>
+        </form>
+    </ion-content>
+</ion-view>
